@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D02ED0B1F91DBC4003ED03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED0A1F91DBC4003ED03D /* main.m */; };
+		2D02ED0E1F91DBC4003ED03D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED0D1F91DBC4003ED03D /* AppDelegate.m */; };
+		2D02ED111F91DBC4003ED03D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED101F91DBC4003ED03D /* ViewController.m */; };
+		2D02ED141F91DBC4003ED03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D02ED121F91DBC4003ED03D /* Main.storyboard */; };
+		2D02ED161F91DBC4003ED03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D02ED151F91DBC4003ED03D /* Assets.xcassets */; };
+		2D02ED191F91DBC4003ED03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D02ED171F91DBC4003ED03D /* LaunchScreen.storyboard */; };
+		2D02ED241F91DBC4003ED03D /* NXLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED231F91DBC4003ED03D /* NXLineChartTests.m */; };
+		2D02ED2F1F91DBC4003ED03D /* NXLineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED2E1F91DBC4003ED03D /* NXLineChartUITests.m */; };
+		2D02ED3E1F91DBEE003ED03D /* NXLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED3D1F91DBEE003ED03D /* NXLineChartView.m */; };
+		2D02ED441F91ECDC003ED03D /* FSLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED411F91ECDC003ED03D /* FSLineChart.m */; };
+		2D02ED451F91ECDC003ED03D /* UIColor+FSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ED431F91ECDC003ED03D /* UIColor+FSPalette.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D02ED201F91DBC4003ED03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D02ECFE1F91DBC4003ED03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02ED051F91DBC4003ED03D;
+			remoteInfo = NXLineChart;
+		};
+		2D02ED2B1F91DBC4003ED03D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D02ECFE1F91DBC4003ED03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02ED051F91DBC4003ED03D;
+			remoteInfo = NXLineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D02ED061F91DBC4003ED03D /* NXLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02ED0A1F91DBC4003ED03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D02ED0C1F91DBC4003ED03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D02ED0D1F91DBC4003ED03D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D02ED0F1F91DBC4003ED03D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D02ED101F91DBC4003ED03D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D02ED131F91DBC4003ED03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D02ED151F91DBC4003ED03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D02ED181F91DBC4003ED03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D02ED1A1F91DBC4003ED03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D02ED1F1F91DBC4003ED03D /* NXLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02ED231F91DBC4003ED03D /* NXLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXLineChartTests.m; sourceTree = "<group>"; };
+		2D02ED251F91DBC4003ED03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D02ED2A1F91DBC4003ED03D /* NXLineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXLineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02ED2E1F91DBC4003ED03D /* NXLineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXLineChartUITests.m; sourceTree = "<group>"; };
+		2D02ED301F91DBC4003ED03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D02ED3C1F91DBEE003ED03D /* NXLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLineChartView.h; sourceTree = "<group>"; };
+		2D02ED3D1F91DBEE003ED03D /* NXLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLineChartView.m; sourceTree = "<group>"; };
+		2D02ED401F91ECDC003ED03D /* FSLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLineChart.h; sourceTree = "<group>"; };
+		2D02ED411F91ECDC003ED03D /* FSLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLineChart.m; sourceTree = "<group>"; };
+		2D02ED421F91ECDC003ED03D /* UIColor+FSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSPalette.h"; sourceTree = "<group>"; };
+		2D02ED431F91ECDC003ED03D /* UIColor+FSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSPalette.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D02ED031F91DBC4003ED03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED1C1F91DBC4003ED03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED271F91DBC4003ED03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D02ECFD1F91DBC4003ED03D = {
+			isa = PBXGroup;
+			children = (
+				2D02ED081F91DBC4003ED03D /* NXLineChart */,
+				2D02ED221F91DBC4003ED03D /* NXLineChartTests */,
+				2D02ED2D1F91DBC4003ED03D /* NXLineChartUITests */,
+				2D02ED071F91DBC4003ED03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D02ED071F91DBC4003ED03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED061F91DBC4003ED03D /* NXLineChart.app */,
+				2D02ED1F1F91DBC4003ED03D /* NXLineChartTests.xctest */,
+				2D02ED2A1F91DBC4003ED03D /* NXLineChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D02ED081F91DBC4003ED03D /* NXLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED3F1F91ECDC003ED03D /* FSLineChart */,
+				2D02ED0C1F91DBC4003ED03D /* AppDelegate.h */,
+				2D02ED0D1F91DBC4003ED03D /* AppDelegate.m */,
+				2D02ED0F1F91DBC4003ED03D /* ViewController.h */,
+				2D02ED101F91DBC4003ED03D /* ViewController.m */,
+				2D02ED3C1F91DBEE003ED03D /* NXLineChartView.h */,
+				2D02ED3D1F91DBEE003ED03D /* NXLineChartView.m */,
+				2D02ED121F91DBC4003ED03D /* Main.storyboard */,
+				2D02ED151F91DBC4003ED03D /* Assets.xcassets */,
+				2D02ED171F91DBC4003ED03D /* LaunchScreen.storyboard */,
+				2D02ED1A1F91DBC4003ED03D /* Info.plist */,
+				2D02ED091F91DBC4003ED03D /* Supporting Files */,
+			);
+			path = NXLineChart;
+			sourceTree = "<group>";
+		};
+		2D02ED091F91DBC4003ED03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED0A1F91DBC4003ED03D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D02ED221F91DBC4003ED03D /* NXLineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED231F91DBC4003ED03D /* NXLineChartTests.m */,
+				2D02ED251F91DBC4003ED03D /* Info.plist */,
+			);
+			path = NXLineChartTests;
+			sourceTree = "<group>";
+		};
+		2D02ED2D1F91DBC4003ED03D /* NXLineChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED2E1F91DBC4003ED03D /* NXLineChartUITests.m */,
+				2D02ED301F91DBC4003ED03D /* Info.plist */,
+			);
+			path = NXLineChartUITests;
+			sourceTree = "<group>";
+		};
+		2D02ED3F1F91ECDC003ED03D /* FSLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				2D02ED401F91ECDC003ED03D /* FSLineChart.h */,
+				2D02ED411F91ECDC003ED03D /* FSLineChart.m */,
+				2D02ED421F91ECDC003ED03D /* UIColor+FSPalette.h */,
+				2D02ED431F91ECDC003ED03D /* UIColor+FSPalette.m */,
+			);
+			path = FSLineChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D02ED051F91DBC4003ED03D /* NXLineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02ED331F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChart" */;
+			buildPhases = (
+				2D02ED021F91DBC4003ED03D /* Sources */,
+				2D02ED031F91DBC4003ED03D /* Frameworks */,
+				2D02ED041F91DBC4003ED03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXLineChart;
+			productName = NXLineChart;
+			productReference = 2D02ED061F91DBC4003ED03D /* NXLineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02ED1E1F91DBC4003ED03D /* NXLineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02ED361F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChartTests" */;
+			buildPhases = (
+				2D02ED1B1F91DBC4003ED03D /* Sources */,
+				2D02ED1C1F91DBC4003ED03D /* Frameworks */,
+				2D02ED1D1F91DBC4003ED03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02ED211F91DBC4003ED03D /* PBXTargetDependency */,
+			);
+			name = NXLineChartTests;
+			productName = NXLineChartTests;
+			productReference = 2D02ED1F1F91DBC4003ED03D /* NXLineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D02ED291F91DBC4003ED03D /* NXLineChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02ED391F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChartUITests" */;
+			buildPhases = (
+				2D02ED261F91DBC4003ED03D /* Sources */,
+				2D02ED271F91DBC4003ED03D /* Frameworks */,
+				2D02ED281F91DBC4003ED03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02ED2C1F91DBC4003ED03D /* PBXTargetDependency */,
+			);
+			name = NXLineChartUITests;
+			productName = NXLineChartUITests;
+			productReference = 2D02ED2A1F91DBC4003ED03D /* NXLineChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D02ECFE1F91DBC4003ED03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "牛新怀";
+				TargetAttributes = {
+					2D02ED051F91DBC4003ED03D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+					};
+					2D02ED1E1F91DBC4003ED03D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02ED051F91DBC4003ED03D;
+					};
+					2D02ED291F91DBC4003ED03D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B2WB8E557H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02ED051F91DBC4003ED03D;
+					};
+				};
+			};
+			buildConfigurationList = 2D02ED011F91DBC4003ED03D /* Build configuration list for PBXProject "NXLineChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D02ECFD1F91DBC4003ED03D;
+			productRefGroup = 2D02ED071F91DBC4003ED03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D02ED051F91DBC4003ED03D /* NXLineChart */,
+				2D02ED1E1F91DBC4003ED03D /* NXLineChartTests */,
+				2D02ED291F91DBC4003ED03D /* NXLineChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D02ED041F91DBC4003ED03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02ED191F91DBC4003ED03D /* LaunchScreen.storyboard in Resources */,
+				2D02ED161F91DBC4003ED03D /* Assets.xcassets in Resources */,
+				2D02ED141F91DBC4003ED03D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED1D1F91DBC4003ED03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED281F91DBC4003ED03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D02ED021F91DBC4003ED03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02ED111F91DBC4003ED03D /* ViewController.m in Sources */,
+				2D02ED0E1F91DBC4003ED03D /* AppDelegate.m in Sources */,
+				2D02ED441F91ECDC003ED03D /* FSLineChart.m in Sources */,
+				2D02ED0B1F91DBC4003ED03D /* main.m in Sources */,
+				2D02ED451F91ECDC003ED03D /* UIColor+FSPalette.m in Sources */,
+				2D02ED3E1F91DBEE003ED03D /* NXLineChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED1B1F91DBC4003ED03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02ED241F91DBC4003ED03D /* NXLineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02ED261F91DBC4003ED03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02ED2F1F91DBC4003ED03D /* NXLineChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D02ED211F91DBC4003ED03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02ED051F91DBC4003ED03D /* NXLineChart */;
+			targetProxy = 2D02ED201F91DBC4003ED03D /* PBXContainerItemProxy */;
+		};
+		2D02ED2C1F91DBC4003ED03D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02ED051F91DBC4003ED03D /* NXLineChart */;
+			targetProxy = 2D02ED2B1F91DBC4003ED03D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D02ED121F91DBC4003ED03D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02ED131F91DBC4003ED03D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D02ED171F91DBC4003ED03D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D02ED181F91DBC4003ED03D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D02ED311F91DBC4003ED03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D02ED321F91DBC4003ED03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D02ED341F91DBC4003ED03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D02ED351F91DBC4003ED03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D02ED371F91DBC4003ED03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXLineChart.app/NXLineChart";
+			};
+			name = Debug;
+		};
+		2D02ED381F91DBC4003ED03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXLineChart.app/NXLineChart";
+			};
+			name = Release;
+		};
+		2D02ED3A1F91DBC4003ED03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXLineChart;
+			};
+			name = Debug;
+		};
+		2D02ED3B1F91DBC4003ED03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B2WB8E557H;
+				INFOPLIST_FILE = NXLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuxinhuai.text.NXLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXLineChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D02ED011F91DBC4003ED03D /* Build configuration list for PBXProject "NXLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02ED311F91DBC4003ED03D /* Debug */,
+				2D02ED321F91DBC4003ED03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02ED331F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02ED341F91DBC4003ED03D /* Debug */,
+				2D02ED351F91DBC4003ED03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D02ED361F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02ED371F91DBC4003ED03D /* Debug */,
+				2D02ED381F91DBC4003ED03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D02ED391F91DBC4003ED03D /* Build configuration list for PBXNativeTarget "NXLineChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02ED3A1F91DBC4003ED03D /* Debug */,
+				2D02ED3B1F91DBC4003ED03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D02ECFE1F91DBC4003ED03D /* Project object */;
+}
